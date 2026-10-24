@@ -1,0 +1,110 @@
+{
+  "beats": [
+    {
+      "segment": "qc-title",
+      "beat": 0,
+      "text": "QuantumClaw Route Optimizer. A skill for your coding agent.",
+      "start": 0.35,
+      "end": 4.019
+    },
+    {
+      "segment": "qc-title",
+      "beat": 1,
+      "text": "It runs three solvers on your delivery problem and hands you one ranked plan.",
+      "start": 4.469,
+      "end": 8.501
+    },
+    {
+      "segment": "qc-prompt",
+      "beat": 0,
+      "text": "You give your agent a stop list and your current routes.",
+      "start": 9.401,
+      "end": 12.175
+    },
+    {
+      "segment": "qc-prompt",
+      "beat": 1,
+      "text": "The agent checks the data, runs each solver five times, keeps the best feasible plan, and writes a report.",
+      "start": 12.625,
+      "end": 18.619
+    },
+    {
+      "segment": "qc-problem",
+      "beat": 0,
+      "text": "This São Paulo morning has seven stops and three vehicles.",
+      "start": 19.519,
+      "end": 22.677
+    },
+    {
+      "segment": "qc-problem",
+      "beat": 1,
+      "text": "Your current plan puts fourteen units on a twelve unit truck.",
+      "start": 23.127,
+      "end": 26.263
+    },
+    {
+      "segment": "qc-benchmark",
+      "beat": 0,
+      "text": "The skill runs each solver with five fixed seeds.",
+      "start": 27.163,
+      "end": 29.701
+    },
+    {
+      "segment": "qc-benchmark",
+      "beat": 1,
+      "text": "The greedy solver leaves one stop unserved on every run, so it drops out.",
+      "start": 30.151,
+      "end": 34.333
+    },
+    {
+      "segment": "qc-benchmark",
+      "beat": 2,
+      "text": "Simulated annealing serves all seven stops on all five runs, so it wins.",
+      "start": 34.783,
+      "end": 39.177
+    },
+    {
+      "segment": "qc-routes",
+      "beat": 0,
+      "text": "These are the winning routes.",
+      "start": 40.077,
+      "end": 41.592
+    },
+    {
+      "segment": "qc-routes",
+      "beat": 1,
+      "text": "All seven stops arrive on time, and each vehicle stays within capacity.",
+      "start": 42.042,
+      "end": 46.373
+    },
+    {
+      "segment": "qc-savings",
+      "beat": 0,
+      "text": "Compared with your current routes, you cut distance by twenty one percent, cost by fifteen, and C O two by a third.",
+      "start": 47.273,
+      "end": 53.395
+    },
+    {
+      "segment": "qc-savings",
+      "beat": 1,
+      "text": "These numbers come from the bundled example. Your own data will give different ones.",
+      "start": 53.845,
+      "end": 58.304
+    },
+    {
+      "segment": "qc-cta",
+      "beat": 0,
+      "text": "QuantumClaw Route Optimizer is free on Agensi.",
+      "start": 59.204,
+      "end": 62.105
+    },
+    {
+      "segment": "qc-cta",
+      "beat": 1,
+      "text": "Get the code on GitHub, at yabloko labs slash QuantumClaw.",
+      "start": 62.555,
+      "end": 66.182
+    }
+  ],
+  "length_s": 66.732
+}

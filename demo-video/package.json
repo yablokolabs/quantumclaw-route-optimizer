@@ -1,0 +1,17 @@
+{
+  "name": "quantumclaw-demo-video",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx videowright dev",
+    "render": "npx videowright render"
+  },
+  "dependencies": {
+    "videowright": "^0.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.3",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+id,lat,lon,demand,service_time_min,window_start_min,window_end_min
+shoreditch-1,51.5265,-0.0786,3,8,,
+shoreditch-2,51.5241,-0.0750,2,8,,
+camden-1,51.5390,-0.1426,4,10,,
+camden-2,51.5416,-0.1460,3,10,0,120
+brixton-1,51.4613,-0.1156,5,10,,
+brixton-2,51.4648,-0.1120,2,8,,
+greenwich-1,51.4826,-0.0077,4,10,0,150
+greenwich-2,51.4790,-0.0020,3,8,,
+kensington-1,51.5009,-0.1925,2,8,,
+kensington-2,51.4990,-0.1990,4,10,,

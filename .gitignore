@@ -1,0 +1,5 @@
+.env
+node_modules/
+demo-video/render/
+__pycache__/
+.quantumclaw-venv/
