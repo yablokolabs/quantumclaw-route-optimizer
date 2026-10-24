@@ -59,11 +59,17 @@ Result on the bundled example (seeds 1–5):
 
 ## Rebuild the demo video
 
-1. `cd demo-video && npm install && npx playwright install chromium`
-2. Edit scenes in `segments/`, narration in `videos/quantumclaw_agensi_demo/audio/originals/voiceovers/v1/script.json`
-3. Regenerate narration: `python generate.py kokoro-v1.0.onnx voices-v1.0.bin` in that folder ([model files](https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0), `pip install kokoro-onnx soundfile`)
-4. Preview: `npx videowright dev`
-5. Render: `npx videowright render quantumclaw_agensi_demo --output final/quantumclaw-route-optimizer-demo.mp4`
+- How it was made, step by step: [docs/how-it-was-built.md](docs/how-it-was-built.md)
+- Quick rebuild:
+
+```sh
+cd demo-video
+npm install && npx playwright install chromium
+./videos/quantumclaw_agensi_demo/audio/originals/voiceovers/v1/setup_kokoro.sh
+npx videowright render quantumclaw_agensi_demo --output final/quantumclaw-route-optimizer-demo.mp4
+```
+
+- Use it as a reference for your own demo: [prompt here](docs/how-it-was-built.md#use-as-a-reference-for-a-new-demo)
 
 ## Limits
 
