@@ -3,3 +3,6 @@ node_modules/
 demo-video/render/
 __pycache__/
 .quantumclaw-venv/
+
+# Benchmark per-run checkpoints (assembled into benchmarks/results/runs)
+benchmarks/results/jobs/
