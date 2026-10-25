@@ -1,0 +1,1861 @@
+[
+ {
+  "instance": "R101",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 1637.7,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1644.1,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 88,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2259.5,
+    "best_feasible_distance": null,
+    "median_runtime_s": 42.77,
+    "median_late_customers": 76,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2177.8,
+    "best_feasible_distance": null,
+    "median_runtime_s": 671.5,
+    "median_late_customers": 78,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1685.4,
+    "best_feasible_distance": 1685.4,
+    "median_runtime_s": 1.06,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1658.6,
+    "best_feasible_distance": 1658.6,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1654.2,
+    "best_feasible_distance": 1654.2,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 1685.4,
+    "gap_pct": 2.91,
+    "routes": 20,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 1658.6,
+    "gap_pct": 1.28,
+    "routes": 21,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 1654.2,
+    "gap_pct": 1.01,
+    "routes": 21,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1644.1,
+    "gap_pct": 0.39,
+    "routes": 8,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 88,
+    "late_minutes": 16922.0,
+    "late_depot_returns": 7
+   },
+   "dwave-sa": {
+    "distance": 2259.5,
+    "gap_pct": 37.97,
+    "routes": 16,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 79,
+    "late_minutes": 14796.5,
+    "late_depot_returns": 11
+   },
+   "dwave-sqa": {
+    "distance": 2177.8,
+    "gap_pct": 32.98,
+    "routes": 16,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 81,
+    "late_minutes": 15337.2,
+    "late_depot_returns": 10
+   }
+  }
+ },
+ {
+  "instance": "R102",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 1466.6,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1644.1,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.03,
+    "median_late_customers": 80,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2259.5,
+    "best_feasible_distance": null,
+    "median_runtime_s": 45.48,
+    "median_late_customers": 67,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2177.8,
+    "best_feasible_distance": null,
+    "median_runtime_s": 669.8,
+    "median_late_customers": 71,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1482.0,
+    "best_feasible_distance": 1482.0,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1478.0,
+    "best_feasible_distance": 1478.0,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1470.4,
+    "best_feasible_distance": 1470.4,
+    "median_runtime_s": 60.01,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 1482.0,
+    "gap_pct": 1.05,
+    "routes": 18,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 1478.0,
+    "gap_pct": 0.78,
+    "routes": 18,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 1470.4,
+    "gap_pct": 0.26,
+    "routes": 18,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1644.1,
+    "gap_pct": 12.1,
+    "routes": 8,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 80,
+    "late_minutes": 14199.2,
+    "late_depot_returns": 7
+   },
+   "dwave-sa": {
+    "distance": 2259.5,
+    "gap_pct": 54.06,
+    "routes": 16,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 70,
+    "late_minutes": 12067.8,
+    "late_depot_returns": 10
+   },
+   "dwave-sqa": {
+    "distance": 2177.8,
+    "gap_pct": 48.49,
+    "routes": 16,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 71,
+    "late_minutes": 11668.9,
+    "late_depot_returns": 9
+   }
+  }
+ },
+ {
+  "instance": "R103",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 1208.7,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1644.1,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.03,
+    "median_late_customers": 70,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2259.5,
+    "best_feasible_distance": null,
+    "median_runtime_s": 43.85,
+    "median_late_customers": 59,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2177.8,
+    "best_feasible_distance": null,
+    "median_runtime_s": 666.76,
+    "median_late_customers": 61,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1255.1,
+    "best_feasible_distance": 1255.1,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1237.9,
+    "best_feasible_distance": 1237.9,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1237.9,
+    "best_feasible_distance": 1237.9,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 1255.1,
+    "gap_pct": 3.84,
+    "routes": 15,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 1237.9,
+    "gap_pct": 2.42,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 1237.9,
+    "gap_pct": 2.42,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1644.1,
+    "gap_pct": 36.02,
+    "routes": 8,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 70,
+    "late_minutes": 12264.5,
+    "late_depot_returns": 7
+   },
+   "dwave-sa": {
+    "distance": 2259.5,
+    "gap_pct": 86.94,
+    "routes": 16,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 63,
+    "late_minutes": 9616.7,
+    "late_depot_returns": 10
+   },
+   "dwave-sqa": {
+    "distance": 2177.8,
+    "gap_pct": 80.18,
+    "routes": 16,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 63,
+    "late_minutes": 9350.4,
+    "late_depot_returns": 8
+   }
+  }
+ },
+ {
+  "instance": "RC101",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 1619.8,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1865.3,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 79,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2561.2,
+    "best_feasible_distance": null,
+    "median_runtime_s": 42.82,
+    "median_late_customers": 77,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2642.8,
+    "best_feasible_distance": null,
+    "median_runtime_s": 654.27,
+    "median_late_customers": 77,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1774.2,
+    "best_feasible_distance": 1774.2,
+    "median_runtime_s": 1.03,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1690.4,
+    "best_feasible_distance": 1690.4,
+    "median_runtime_s": 10.02,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1682.1,
+    "best_feasible_distance": 1682.1,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 1774.2,
+    "gap_pct": 9.53,
+    "routes": 16,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 1690.4,
+    "gap_pct": 4.36,
+    "routes": 16,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 1682.1,
+    "gap_pct": 3.85,
+    "routes": 16,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1865.3,
+    "gap_pct": 15.16,
+    "routes": 9,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 79,
+    "late_minutes": 12810.6,
+    "late_depot_returns": 9
+   },
+   "dwave-sa": {
+    "distance": 2561.2,
+    "gap_pct": 58.12,
+    "routes": 14,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 77,
+    "late_minutes": 12979.9,
+    "late_depot_returns": 9
+   },
+   "dwave-sqa": {
+    "distance": 2642.8,
+    "gap_pct": 63.16,
+    "routes": 13,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 77,
+    "late_minutes": 12592.4,
+    "late_depot_returns": 9
+   }
+  }
+ },
+ {
+  "instance": "RC102",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 1457.4,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1865.3,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 75,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2561.2,
+    "best_feasible_distance": null,
+    "median_runtime_s": 42.73,
+    "median_late_customers": 70,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2642.8,
+    "best_feasible_distance": null,
+    "median_runtime_s": 652.69,
+    "median_late_customers": 71,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1562.9,
+    "best_feasible_distance": 1562.9,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1515.7,
+    "best_feasible_distance": 1515.7,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1515.7,
+    "best_feasible_distance": 1515.7,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 1562.9,
+    "gap_pct": 7.24,
+    "routes": 16,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 1515.7,
+    "gap_pct": 4.0,
+    "routes": 15,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 1515.7,
+    "gap_pct": 4.0,
+    "routes": 15,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1865.3,
+    "gap_pct": 27.99,
+    "routes": 9,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 75,
+    "late_minutes": 10996.5,
+    "late_depot_returns": 9
+   },
+   "dwave-sa": {
+    "distance": 2561.2,
+    "gap_pct": 75.74,
+    "routes": 14,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 70,
+    "late_minutes": 10908.9,
+    "late_depot_returns": 9
+   },
+   "dwave-sqa": {
+    "distance": 2642.8,
+    "gap_pct": 81.34,
+    "routes": 13,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 71,
+    "late_minutes": 10769.7,
+    "late_depot_returns": 8
+   }
+  }
+ },
+ {
+  "instance": "RC103",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 1258.0,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1865.3,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 68,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2561.2,
+    "best_feasible_distance": null,
+    "median_runtime_s": 42.94,
+    "median_late_customers": 60,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 2642.8,
+    "best_feasible_distance": null,
+    "median_runtime_s": 664.5,
+    "median_late_customers": 64,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1366.6,
+    "best_feasible_distance": 1366.6,
+    "median_runtime_s": 1.01,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1333.5,
+    "best_feasible_distance": 1333.5,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 1333.5,
+    "best_feasible_distance": 1333.5,
+    "median_runtime_s": 60.02,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 1366.6,
+    "gap_pct": 8.63,
+    "routes": 13,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 1333.5,
+    "gap_pct": 6.0,
+    "routes": 12,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 1333.5,
+    "gap_pct": 6.0,
+    "routes": 12,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1865.3,
+    "gap_pct": 48.28,
+    "routes": 9,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 68,
+    "late_minutes": 9209.4,
+    "late_depot_returns": 8
+   },
+   "dwave-sa": {
+    "distance": 2561.2,
+    "gap_pct": 103.59,
+    "routes": 14,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 60,
+    "late_minutes": 8220.0,
+    "late_depot_returns": 9
+   },
+   "dwave-sqa": {
+    "distance": 2642.8,
+    "gap_pct": 110.08,
+    "routes": 13,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 65,
+    "late_minutes": 9398.1,
+    "late_depot_returns": 8
+   }
+  }
+ },
+ {
+  "instance": "C101",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 827.3,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1094.2,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.03,
+    "median_late_customers": 79,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1978.6,
+    "best_feasible_distance": null,
+    "median_runtime_s": 43.18,
+    "median_late_customers": 80,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1882.6,
+    "best_feasible_distance": null,
+    "median_runtime_s": 667.95,
+    "median_late_customers": 81,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 852.6,
+    "best_feasible_distance": 852.6,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 827.3,
+    "best_feasible_distance": 827.3,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 827.3,
+    "best_feasible_distance": 827.3,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 852.6,
+    "gap_pct": 3.06,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 827.3,
+    "gap_pct": 0.0,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 827.3,
+    "gap_pct": 0.0,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1094.2,
+    "gap_pct": 32.26,
+    "routes": 10,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 79,
+    "late_minutes": 65573.8,
+    "late_depot_returns": 7
+   },
+   "dwave-sa": {
+    "distance": 1978.6,
+    "gap_pct": 139.16,
+    "routes": 12,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 80,
+    "late_minutes": 66353.7,
+    "late_depot_returns": 8
+   },
+   "dwave-sqa": {
+    "distance": 1882.6,
+    "gap_pct": 127.56,
+    "routes": 12,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 81,
+    "late_minutes": 68146.1,
+    "late_depot_returns": 9
+   }
+  }
+ },
+ {
+  "instance": "C102",
+  "kind": "VRPTW",
+  "customers": 100,
+  "vehicles": 25,
+  "bks": 827.3,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1094.2,
+    "best_feasible_distance": null,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 60,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1978.6,
+    "best_feasible_distance": null,
+    "median_runtime_s": 42.88,
+    "median_late_customers": 67,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 0,
+    "median_distance": 1882.6,
+    "best_feasible_distance": null,
+    "median_runtime_s": 666.32,
+    "median_late_customers": 67,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 827.3,
+    "best_feasible_distance": 827.3,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 827.3,
+    "best_feasible_distance": 827.3,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 827.3,
+    "best_feasible_distance": 827.3,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 827.3,
+    "gap_pct": 0.0,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 827.3,
+    "gap_pct": 0.0,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 827.3,
+    "gap_pct": 0.0,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 1094.2,
+    "gap_pct": 32.26,
+    "routes": 10,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 60,
+    "late_minutes": 35098.7,
+    "late_depot_returns": 7
+   },
+   "dwave-sa": {
+    "distance": 1978.6,
+    "gap_pct": 139.16,
+    "routes": 12,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 76,
+    "late_minutes": 50618.8,
+    "late_depot_returns": 8
+   },
+   "dwave-sqa": {
+    "distance": 1882.6,
+    "gap_pct": 127.56,
+    "routes": 12,
+    "feasible": false,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 61,
+    "late_minutes": 50410.2,
+    "late_depot_returns": 9
+   }
+  }
+ },
+ {
+  "instance": "X-n101-k25",
+  "kind": "CVRP",
+  "customers": 100,
+  "vehicles": 28,
+  "bks": 27591.0,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 50815.0,
+    "best_feasible_distance": 50815.0,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 51820.0,
+    "best_feasible_distance": 49915.0,
+    "median_runtime_s": 44.46,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 50705.0,
+    "best_feasible_distance": 48473.0,
+    "median_runtime_s": 778.83,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 29382.0,
+    "best_feasible_distance": 29382.0,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 29375.0,
+    "best_feasible_distance": 29375.0,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 29362.0,
+    "best_feasible_distance": 29362.0,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 29382.0,
+    "gap_pct": 6.49,
+    "routes": 27,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 29375.0,
+    "gap_pct": 6.47,
+    "routes": 27,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 29362.0,
+    "gap_pct": 6.42,
+    "routes": 27,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 50815.0,
+    "gap_pct": 84.17,
+    "routes": 26,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sa": {
+    "distance": 51820.0,
+    "gap_pct": 87.81,
+    "routes": 27,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sqa": {
+    "distance": 50705.0,
+    "gap_pct": 83.77,
+    "routes": 27,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   }
+  }
+ },
+ {
+  "instance": "X-n106-k14",
+  "kind": "CVRP",
+  "customers": 105,
+  "vehicles": 17,
+  "bks": 26362.0,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 39498.0,
+    "best_feasible_distance": 39498.0,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 39106.0,
+    "best_feasible_distance": 38559.0,
+    "median_runtime_s": 38.2,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 39388.0,
+    "best_feasible_distance": 38177.0,
+    "median_runtime_s": 555.53,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 27089.0,
+    "best_feasible_distance": 27089.0,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 27000.0,
+    "best_feasible_distance": 27000.0,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 26872.0,
+    "best_feasible_distance": 26872.0,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 27089.0,
+    "gap_pct": 2.76,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 27000.0,
+    "gap_pct": 2.42,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 26872.0,
+    "gap_pct": 1.93,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 39498.0,
+    "gap_pct": 49.83,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sa": {
+    "distance": 39106.0,
+    "gap_pct": 48.34,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sqa": {
+    "distance": 39388.0,
+    "gap_pct": 49.41,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   }
+  }
+ },
+ {
+  "instance": "X-n110-k13",
+  "kind": "CVRP",
+  "customers": 109,
+  "vehicles": 16,
+  "bks": 14971.0,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 37119.0,
+    "best_feasible_distance": 37119.0,
+    "median_runtime_s": 0.02,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 36332.0,
+    "best_feasible_distance": 33705.0,
+    "median_runtime_s": 35.63,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 36212.0,
+    "best_feasible_distance": 35712.0,
+    "median_runtime_s": 394.43,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 15987.0,
+    "best_feasible_distance": 15987.0,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 15985.0,
+    "best_feasible_distance": 15985.0,
+    "median_runtime_s": 10.01,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 15463.0,
+    "best_feasible_distance": 15463.0,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 15987.0,
+    "gap_pct": 6.79,
+    "routes": 13,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 15985.0,
+    "gap_pct": 6.77,
+    "routes": 13,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 15463.0,
+    "gap_pct": 3.29,
+    "routes": 13,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 37119.0,
+    "gap_pct": 147.94,
+    "routes": 13,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sa": {
+    "distance": 36332.0,
+    "gap_pct": 142.68,
+    "routes": 15,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sqa": {
+    "distance": 36212.0,
+    "gap_pct": 141.88,
+    "routes": 14,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   }
+  }
+ },
+ {
+  "instance": "X-n115-k10",
+  "kind": "CVRP",
+  "customers": 114,
+  "vehicles": 13,
+  "bks": 12747.0,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 27383.0,
+    "best_feasible_distance": 27383.0,
+    "median_runtime_s": 0.04,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 33123.0,
+    "best_feasible_distance": 32133.0,
+    "median_runtime_s": 36.59,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 34085.0,
+    "best_feasible_distance": 32373.0,
+    "median_runtime_s": 367.16,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 14684.0,
+    "best_feasible_distance": 14684.0,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 14570.0,
+    "best_feasible_distance": 14570.0,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 12996.0,
+    "best_feasible_distance": 12996.0,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 14684.0,
+    "gap_pct": 15.2,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 14570.0,
+    "gap_pct": 14.3,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 12996.0,
+    "gap_pct": 1.95,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 27383.0,
+    "gap_pct": 114.82,
+    "routes": 10,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sa": {
+    "distance": 33123.0,
+    "gap_pct": 159.85,
+    "routes": 13,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sqa": {
+    "distance": 34085.0,
+    "gap_pct": 167.4,
+    "routes": 13,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   }
+  }
+ },
+ {
+  "instance": "X-n120-k6",
+  "kind": "CVRP",
+  "customers": 119,
+  "vehicles": 9,
+  "bks": 13332.0,
+  "lanes": {
+   "classical": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 23745.0,
+    "best_feasible_distance": 23745.0,
+    "median_runtime_s": 0.04,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 31367.0,
+    "best_feasible_distance": 30168.0,
+    "median_runtime_s": 30.12,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "dwave-sqa": {
+    "runs": 5,
+    "feasible_runs": 5,
+    "median_distance": 27182.0,
+    "best_feasible_distance": 25975.0,
+    "median_runtime_s": 173.95,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-1s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 14325.0,
+    "best_feasible_distance": 14325.0,
+    "median_runtime_s": 1.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-10s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 14161.0,
+    "best_feasible_distance": 14161.0,
+    "median_runtime_s": 10.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   },
+   "ortools-60s": {
+    "runs": 1,
+    "feasible_runs": 1,
+    "median_distance": 13827.0,
+    "best_feasible_distance": 13827.0,
+    "median_runtime_s": 60.0,
+    "median_late_customers": 0,
+    "median_missing": 0,
+    "errors": []
+   }
+  },
+  "median_eval": {
+   "ortools-1s": {
+    "distance": 14325.0,
+    "gap_pct": 7.45,
+    "routes": 6,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-10s": {
+    "distance": 14161.0,
+    "gap_pct": 6.22,
+    "routes": 6,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "ortools-60s": {
+    "distance": 13827.0,
+    "gap_pct": 3.71,
+    "routes": 6,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "classical": {
+    "distance": 23745.0,
+    "gap_pct": 78.11,
+    "routes": 6,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sa": {
+    "distance": 31367.0,
+    "gap_pct": 135.28,
+    "routes": 9,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   },
+   "dwave-sqa": {
+    "distance": 27182.0,
+    "gap_pct": 103.89,
+    "routes": 8,
+    "feasible": true,
+    "missing": 0,
+    "duplicated": 0,
+    "over_capacity_routes": 0,
+    "late_customers": 0,
+    "late_minutes": 0.0,
+    "late_depot_returns": 0
+   }
+  }
+ }
+]

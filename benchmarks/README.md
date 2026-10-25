@@ -4,7 +4,41 @@ QuantumClaw's Q-Router lanes against Google OR-Tools on public routing
 instances with published best-known solutions (BKS). Wins and losses are both
 reported.
 
-Results: [results/RESULTS.md](results/RESULTS.md).
+Full tables: [results/RESULTS.md](results/RESULTS.md). Raw runs, routes
+included: [results/runs/](results/runs/).
+
+## Findings (run of 25 Oct 2026)
+
+OR-Tools won all 13 instances. No QuantumClaw lane beat it at any time budget,
+including OR-Tools' 1-second run.
+
+| | OR-Tools 60 s | Best QuantumClaw lane (median of 5) |
+| --- | --- | --- |
+| Feasible plans | 13/13 | 5/13 (CVRP only) |
+| Gap to BKS, Solomon VRPTW | +0.0% to +6.0% | infeasible on all 8: 60–88 of 100 customers late |
+| Gap to BKS, CVRP X | +1.9% to +6.4% | +48% to +142% |
+| Time per run | 60 s | 0.02 s (`classical`), 43 s (`dwave-sa`), 665 s (`dwave-sqa`) |
+
+What the numbers say:
+
+- **Time windows are the first gap.** Q-Router builds routes without the time
+  windows and only scores lateness afterwards. Its routes are identical across
+  R101–R103, RC101–RC103 and C101–C102, which share locations and differ only
+  in time windows.
+- **On capacity-only routing, distance is the second gap.** Every lane served
+  every customer within capacity, but the median plan was 48–167% above BKS.
+  Even the best of 5 runs was 42–149% longer than OR-Tools at 60 s.
+- **The gap is in the pipeline, not the sampler.** `classical` (no QUBO),
+  `dwave-sa` (classical annealing) and `dwave-sqa` (quantum emulator) land in
+  the same range. Splitting the problem into ≤60-variable QUBO pieces and
+  stitching them back together costs more distance than the choice of sampler
+  can recover. Real quantum hardware would receive the same pieces.
+- **Quantum emulator vs classical annealing on the same QUBOs:** `dwave-sqa`
+  had the lower median on 3 of 5 CVRP instances, at about 15x the runtime.
+
+What would change these results: enforcing time windows during construction,
+classical local search (2-opt, relocate, swap) after the QUBO stage, and
+decomposition that clusters by location and time. Then re-run this benchmark.
 
 ## Instances
 

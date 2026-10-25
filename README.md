@@ -71,6 +71,15 @@ npx videowright render quantumclaw_agensi_demo --output final/quantumclaw-route-
 
 - Use it as a reference for your own demo: [prompt here](docs/how-it-was-built.md#use-as-a-reference-for-a-new-demo)
 
+## Benchmark vs Google OR-Tools
+
+13 public instances (Solomon VRPTW, Uchoa CVRP), 5 seeds per lane, one
+independent checker: [benchmarks/](benchmarks/).
+
+- OR-Tools won all 13. No QuantumClaw lane beat it, even at a 1-second budget.
+- Time-window instances: QuantumClaw plans were late for 60–88 of 100 customers.
+- Capacity-only instances: QuantumClaw plans were feasible but 48–167% longer than the best-known solutions; OR-Tools at 60 s was 1.9–6.4% above them.
+
 ## Limits
 
 - Straight-line distances unless you supply a road matrix
